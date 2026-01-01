@@ -1,18 +1,19 @@
-# environments
+# Python / env
 .venv/
 venv/
-env/
-
-# python
 __pycache__/
 *.pyc
 
-# jupyter
+# Jupyter
 .ipynb_checkpoints/
 
 # OS
 .DS_Store
 Thumbs.db
 
-data/*.csv
-data/**/*.csv
+# Data (do NOT upload datasets)
+data/
+*.csv
+
+# Optional
+*.log
