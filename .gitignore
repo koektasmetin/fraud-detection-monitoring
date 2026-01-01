@@ -1,7 +1,15 @@
-data/
-.ipynb_checkpoints/
+# environments
+.venv/
+venv/
+env/
+
+# python
 __pycache__/
 *.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
-.vscode/
-*.log
+Thumbs.db
